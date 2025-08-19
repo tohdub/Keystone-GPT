@@ -16,7 +16,7 @@
       "interval": "on-demand",
       "repo": "tohdub/Keystone-GPT",
       "branch": "main",
-      "path": "/"
+      "path": "/seeds/"
     },
     "cache_strategy": "hybrid",
     "tags": [
@@ -26,6 +26,6 @@
     ],
     "category": "systems",
     "updated": "2025-08-19",
-    "checksum": "<<<REGENERATE>>>"
+    "checksum": "acd626d7f5ea3a7ab30126cff97e71951d9b02e859af13596fe62b214d1b21cd"
   }
 }
