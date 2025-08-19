@@ -1,0 +1,15 @@
+﻿# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.*
+# Logs/Seeds
+logs/*
+!logs/.keep
+seeds/*.json
+# OS
+.DS_Store
+Thumbs.db

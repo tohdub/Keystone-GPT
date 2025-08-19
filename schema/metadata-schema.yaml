@@ -1,0 +1,31 @@
+﻿# schema/metadata-schema.yaml
+type: object
+required: [id, title, type, version, created, updated]
+properties:
+  id: {type: string}
+  title: {type: string}
+  type: {enum: [persona, manual, reference, input, resource, code, log]}
+  author: {type: string}
+  version: {type: string}
+  created: {type: string}
+  updated: {type: string}
+  tags: {type: array, items: {type: string}}
+  links: {type: array, items: {type: string}}
+  category: {type: string}
+  visibility: {enum: [public, internal, restricted]}
+  size_bytes: {type: number}
+  chunk_size: {type: number}
+  preferred_refresh:
+    type: object
+    properties:
+      action: {enum: [ChatGPT, GitHubApp]}
+      interval: {enum: [on-demand, scheduled, none]}
+  cache_strategy: {enum: [local, remote, hybrid]}
+  source: {type: string}
+  checksum: {type: string}
+  license: {type: string}
+  persona_role: {enum: [steward, scribe, strategist, none]}
+  function: {type: string}
+  priority: {enum: [low, medium, high]}
+  alignment: {enum: [mission, neutral, deprecated]}
+  notes: {type: string}
