@@ -1,0 +1,32 @@
+{
+  "date": "2025-08-19",
+  "seeds": [
+    {
+      "id": "strategist-seed-v1",
+      "title": "Strategist",
+      "status": "success",
+      "checksum_before": "977ac9d...",
+      "checksum_after": "977ac9d...",
+      "timestamp": "2025-08-19T02:00:00Z",
+      "errors": []
+    },
+    {
+      "id": "scribe-seed-v1",
+      "title": "Scribe",
+      "status": "success",
+      "checksum_before": "306ced5...",
+      "checksum_after": "306ced5...",
+      "timestamp": "2025-08-19T02:00:05Z",
+      "errors": []
+    },
+    {
+      "id": "steward-seed-v1",
+      "title": "Steward",
+      "status": "failure",
+      "checksum_before": "0d3c66f...",
+      "checksum_after": null,
+      "timestamp": "2025-08-19T02:00:10Z",
+      "errors": ["GitHub API timeout"]
+    }
+  ]
+}
